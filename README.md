@@ -7,8 +7,11 @@
 ## Overview
 
 The MAX31865 Cube is a compact, wireless instrumentation module in the Blinky-Lite Instrumentation Platform. It is designed to perform two precision four-terminal resistance measurements for temperature sensing, then communicate resistance and calculated temperature data to a central Blinky-Lite control system.
+
 Four-terminal measurement removes the effect of lead resistance, which is necessary for precision resistance thermometry, including cryogenic applications. Each channel uses a MAX31865 resistance-to-digital converter with 15-bit resolution and resistance precision of 0.13 Ω.
+
 For accurate temperature conversion across a wide operating range, each channel evaluates a seventh-order polynomial fit. Blinky-Lite downloads the coefficients to the cube and supports log-log, linear-linear, log-linear, and linear-log fitting modes.
+
 Built around the Raspberry Pi Pico W / RP2040, the module uses 2.4 GHz Wi-Fi and MQTT publish/subscribe communication. This event-driven approach supports distributed deployments without wired data connections and enables Blinky-Lite to use device information for recording, notifications, visualisation, and machine-protection workflows.
 
 ### Key features
