@@ -2,7 +2,9 @@
 
 **Two-channel, precision four-terminal resistance measurement for accurate temperature sensing.**
 
-<img src="MAX31865-cube.png" alt="MAX31865-cube" width="800"/>
+| Enclosure | PCB |
+|-----------|-----|
+|<img src="MAX31865-cube.png" alt="MAX31865-cube" width="400"/>|<img src="MAX31865PCB.png" alt="MAX31865PCB" width="400"/>|
 
 ## Overview
 
